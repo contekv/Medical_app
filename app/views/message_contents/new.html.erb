@@ -1,0 +1,6 @@
+<h1>相談入力画面</h1>
+
+<%= form_with model: @user do |f|  %>
+  <%= f.text_field :content %>
+  <%= f.submit '送信'%>
+<% end %>
